@@ -44,6 +44,7 @@
 }
 .pro-description{
     font-size: 15px;
+    overflow-wrap: anywhere;
     margin-bottom: 10px;
 }
 .projects-title{
@@ -59,11 +60,19 @@
     display: flex;
     justify-content: space-between;
   }
+  .even-project .pro-image {
+    border-top-right-radius: 6%;
+    border-bottom-right-radius: 6%;
+  }
   
   .odd-project {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+  }
+  .odd-project .pro-image{
+    border-top-left-radius: 6%;
+    border-bottom-left-radius: 6%;
   }
   @media screen and (max-width: 768px) {
     .project-section {
