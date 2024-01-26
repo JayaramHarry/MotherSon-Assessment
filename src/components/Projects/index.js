@@ -21,7 +21,7 @@ const Projects = ({ projects, addProject }) => {
         ))}
 
         {/* Render user-added projects */}
-        {/* {projects.filter(project => project.isUserAdded).map((project, index) => (
+        {projects.filter(project => project.isUserAdded).map((project, index) => (
           <div key={index} className={`project-section ${index % 2 === 0 ? 'even-project' : 'odd-project'}`}>
             <div className='description-container'>
               <h4 className='pro-name'>{project.name}</h4>
@@ -30,7 +30,7 @@ const Projects = ({ projects, addProject }) => {
             </div>
             <img className='pro-image' src={project.link} alt={`Project ${index + 1}`} />
           </div>
-        ))} */}
+        ))}
       </div>
       <Contact />
     </div>
