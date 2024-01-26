@@ -1,4 +1,4 @@
-// Contact.js
+
 import React from 'react';
 import linkedinIcon from './icons/linkedin.svg';  // Adjust the path accordingly
 import instagramIcon from './icons/instagram.svg';  // Adjust the path accordingly
